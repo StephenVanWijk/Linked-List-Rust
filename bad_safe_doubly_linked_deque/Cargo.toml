@@ -1,0 +1,6 @@
+[package]
+name = "bad_safe_doubly_linked_deque"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

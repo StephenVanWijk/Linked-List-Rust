@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "bad_safe_doubly_linked_deque",
+    "bad_singly_linked_stack",
+    "ok_singly_linked_stack",
+    "ok_unsafe_doubly_linked_deque",
+    "persistent_singly_linked_stack",
+    "unsafe_singly_linked_queue"
+]
+resolver = "2"
