@@ -1,0 +1,2 @@
+20250628 1643CET SDvW
+cargo test -p bad_singly_linked_stack --test first_tests -- --nocapture
