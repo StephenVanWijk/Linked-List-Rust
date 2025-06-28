@@ -1,13 +1,11 @@
+#![allow(unused)]
 
-// #![allow(unused)]
-// #[derive(Debug)]
-// enum List<T> {
-//     Cons(T, Box<List<T>>),
-//     Nil,
-// }
-use bad_singly_linked_stack::first::List;
+mod first;
+
+use first::List;
 
 fn main() {
-    let list: List = List::Elem(1, Box::new(List::Elem(2, Box::new(List::Empty))));
+    let mut list = List::new();
+    list.push(30);
     println!("{:#?}", list);
 }
