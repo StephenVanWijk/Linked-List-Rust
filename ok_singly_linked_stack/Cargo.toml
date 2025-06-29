@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bad_singly_linked_stack = { version = "0.1.0", path = "../bad_singly_linked_stack" }
