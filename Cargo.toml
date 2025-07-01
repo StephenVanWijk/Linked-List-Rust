@@ -8,3 +8,9 @@ members = [
     "unsafe_singly_linked_queue"
 ]
 resolver = "2"
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug = false
